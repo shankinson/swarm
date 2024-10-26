@@ -61,6 +61,7 @@ class Swarm:
             "tools": tools or None,
             "tool_choice": agent.tool_choice,
             "stream": stream,
+            "response_format": agent.response_format,
         }
 
         if tools:
