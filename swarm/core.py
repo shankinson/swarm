@@ -62,6 +62,7 @@ class Swarm:
             "tool_choice": agent.tool_choice,
             "stream": stream,
             "response_format": agent.response_format,
+            "temperature": agent.temperature,
         }
 
         if tools:
